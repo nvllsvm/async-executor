@@ -12,4 +12,4 @@ pip install async-executor
 
 ## License
 
-`test` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`async-executor` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
