@@ -1,6 +1,5 @@
 # async-executor
-[![PyPI - Version](https://img.shields.io/pypi/v/test.svg)](https://pypi.org/project/async-executor)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/async-executor.svg)](https://pypi.org/project/async-executor)
+[![PyPI - Version](https://img.shields.io/pypi/v/async-executor.svg)](https://pypi.org/project/async-executor)
 
 Async execution pool
 
