@@ -4,10 +4,11 @@ import os
 
 class AsyncExecutor:
     def __init__(self, max_concurrent=None):
-        if max_concurrent and not isinstance(max_concurrent, int):
-            raise TypeError('max_concurrent must type int')
-        if max_concurrent and max_concurrent < 0:
-            raise ValueError('max_concurrent must be greater than 0')
+        if max_concurrent is not None:
+            if not isinstance(max_concurrent, int):
+                raise TypeError('max_concurrent must type int')
+            if max_concurrent < 0:
+                raise ValueError('max_concurrent must be greater than 0')
         self._max_concurrent = max_concurrent or os.cpu_count()
         self._queued = []
         self._pending = set()
